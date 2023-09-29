@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+	<meta http-equiv ="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Auto Colors</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link href="/style.css" rel="stylesheet">
+
+</head>
+
+<body style="background-color: rgb(224, 217, 217);">
+
+	<!--NAV BAR -->
+	<nav class="navbar col-12 m-auto navbar-expand-lg bg-primary navbar-dark">
+		<div class="container-fluid col-11">
+			<a class="navbar-brand" href="index.html">Auto Colors</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+							aria-expanded="false">
+							Montadoras
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="Chevrolet.html">Chevrolet</a></li>
+							<li><a class="dropdown-item" href="#">Citroen</a></li>
+							<li><a class="dropdown-item" href="#">Fiat</a></li>
+							<li><a class="dropdown-item" href="#">Ford</a></li>
+							<li><a class="dropdown-item" href="#">Honda</a></li>
+							<li><a class="dropdown-item" href="#">Hyundai</a></li>
+							<li><a class="dropdown-item" href="#">Kia</a></li>
+							<li><a class="dropdown-item" href="#">Mitsubishi</a></li>
+							<li><a class="dropdown-item" href="#">Nissan</a></li>
+							<li><a class="dropdown-item" href="#">Peugeot</a></li>
+							<li><a class="dropdown-item" href="#">Renault</a></li>
+							<li><a class="dropdown-item" href="#">Toyota</a></li>
+							<li><a class="dropdown-item" href="#">Volkswagen</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="Criadores.html">Criadores</a>
+					</li>
+				</ul>
+				<form class="d-flex" role="search">
+					<input class="form-control me-2" type="search" placeholder="O que você procura?"
+						aria-label="Search">
+					<button class="btn btn-outline-success text-light" type="submit">Procurar</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+	<!-- Apresentação do site -->
+	<div class="p-4 p-md-5 mb-4 mt-4 rounded text-body-emphasis bg-body-secondary">
+		<div class="lg-6 px-0 ">
+			<h1 class="display-4 fst-italic text-center">Bem vindo!</h1>
+			<p class="lead my-3 text-center">Nosso site de referência de cores automotivas! Nosso objetivo é simplificar
+				a busca e seleção de tonalidades disponíveis para cada veículo. Fornecemos informações claras e precisas
+				sobre as cores utilizadas em diversos modelos de carros. Explore nossa plataforma e descubra as opções
+				de cores disponíveis para cada veículo.</p>
+		</div>
+	</div>
+	<!-- CAROUSEL -->
+	<div class="container mt-1">
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+					aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+					aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+					aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner" style="height: 25em;">
+				<div class="carousel-item active h-100"
+					style="background-image: url(Imagens/Cores_Corolla.jpg); background-size: contain; background-repeat: no-repeat; background-position: center;">
+				</div>
+				<div class="carousel-item h-100"
+					style="background-image: url(Imagens/Cores_Honda.jpg); background-size: contain; background-repeat:  no-repeat; background-position: center;">
+				</div>
+				<div class="carousel-item h-100"
+					style="background-image: url(Imagens/Cores_Onix.jpg); background-size: contain; background-repeat: no-repeat; background-position: center;">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+				data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden ">Anterior</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Próximo</span>
+			</button>
+		</div>
+	</div>
+	<!--Montadoras disponiveis-->
+	<ul class="list-group position-relative">
+		<li class="list-group-item text-center display-6 disabled fst-italic" aria-disabled="true">Montadoras
+			disponiveis</li>
+		<li class="list-group-item text-center display-6">Fiat(disabled)</li>
+		<li class="list-group-item text-center display-6">Toyota(disabled)</li>
+		<li class="list-group-item text-center display-6"><a
+				class="link-offset-2 link-underline link-underline-opacity-0" href="Chevrolet.html ">Chevrolet</a></li>
+		<li class="list-group-item text-center display-6">Volkswagen(disabled)</li>
+	</ul>
+
+</body>
+<script src="/cards.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"	integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"	crossorigin="anonymous"></script>
+<script src="./Js/mostrarCarros.js" type="module"></script>
+</html>

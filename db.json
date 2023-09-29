@@ -1,0 +1,22 @@
+{
+    "carros":[
+        {
+            "montadora":"Chevrolet",
+            "nomeCarro": "Onix",
+            "cores": ["Branco Summit", "Vermelho Carmin"]
+        },
+
+        {
+            "montadora":"Chevrolet",
+            "nomeCarro": "Tracker",
+            "cores": ["Preto Ouro Negro","Branco Summit", "Vermelho Carmin", "Cinza Satin Steel"]
+        },
+
+        {
+            "montadora":"Chevrolet",
+            "nomeCarro": "Spin",
+            "cores":["Vermelho Carmin", "Ligia linda"]
+        }
+        
+    ]
+    }
